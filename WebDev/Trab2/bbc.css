@@ -221,6 +221,11 @@
                 margin: 0 auto;
                 
             }
+
+            ul li{
+                color: black;
+                font-weight: bold;
+            }
             
             h2 {
                 
@@ -267,10 +272,10 @@
             .topic-link {
                 
                 text-decoration: none;
-                color:#a91717;
+                color: black;
                 border-left: 1px solid #CCCCCC;
                 padding-left: 10px;
-                
+                font-weight: bold;
             }
             
             #article-summary a:hover {
@@ -289,7 +294,7 @@
             #article-container {
                 
                 float:left;
-                width:670px;
+                width:500px;
                 padding-right: 20px;
                 
             }
@@ -316,8 +321,7 @@
             
             #watch-listen {
                 
-                margin-left:20px;
-                width:280px;
+                width:750px;
                 float:right;
             }
             
@@ -331,8 +335,9 @@
             .article-side-image {
                 
                 float:left;
-                width:90px;
+                width:220px;
                 margin-right:10px;
+                margin-bottom:10px;
                 
             }
             
@@ -341,7 +346,7 @@
                 text-decoration: none;
                 color:black;
                 font-weight:bold;
-                font-size:18px;
+                font-size:15px;
                 
             }
             
@@ -353,20 +358,27 @@
             
             .side-article {
                 
-                float:right;
-                width:180px;
+                float:left;
+                width:220px;
                 position:relative;
-                top:-18px;
+                padding-right:15px;
             }
             
             .no-border {
                 
                 border-left:none;
-                padding:0;
             }
             
             .border-right {
                 
                 border-right: 1px solid #CCCCCC;
                 
+            }
+
+            .side-lead {
+
+                color: #5a5a5a;
+                height: 65px;
+                font-size: 15px;
+
             }
