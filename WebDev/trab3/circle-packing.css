@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    margin: auto;
+}
+
+#header{
+    height: 100px;
+    width: 100%;
+    background: darkslategray;
+}
+
+#header h1{
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+#background{
+    margin: auto;
+    width: 1080px;
+    height: 500px;
+    background-color: wheat;
+    position: relative;
+}
+
+#quant{
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shape {
+    border-radius: 50%;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
